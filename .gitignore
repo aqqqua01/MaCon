@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# PyInstaller
+*.spec
+build_output/temp/
+build_output/*.exe
+*.zip
+компіляція/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+mafiles_converter.log
+
+# Config (users' personal settings)
+mafiles_converter_config.json
+
+# Test files
+test_*.py
+test_*.xlsx
+test_*.html
+test_*.maFile
+create_test*.py
+
+# Documentation (keep only main README)
+ІНСТРУКЦІЯ*.md
+НОВА_ФУНКЦІОНАЛЬНІСТЬ.md
+ПОЧАТКОВИЙ_РЯДОК.md
+ФІЛЬТРАЦІЯ_MAFILE.md
+ФОРМАТ_ACCOUNTS.md
+ЗБЕРЕЖЕННЯ_НАЛАШТУВАНЬ.md
+*.txt
+!requirements.txt
+!build_output/README.txt
+
